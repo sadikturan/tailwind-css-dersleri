@@ -1,0 +1,5 @@
+@theme {
+  --color-clifford: #da373d;
+}
+
+@import "tailwindcss";

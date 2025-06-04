@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <header class="fixed w-full">
+        <nav class="bg-white border-gray-200 py-2.5">
+            <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
+                <!-- logo -->
+                 <a href="#" class="flex items-center">
+                    <img src="img/logo.svg" alt="" class="h-6 mr-2">
+                    <span class="text-xl font-semibold">Portfolio</span>
+                 </a>
+
+                <!-- button & mobile icon -->
+                <div class="flex items-center  lg:order-2">
+                    <a href="#" class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 py-2">Get Started</a>
+
+                    <button data-collapse-toggle="menu" class="p-2 ml-1 text-sm text-gray-500 rounded-lg cursor-pointer lg:hidden">
+                        <img src="/img/hamburger.svg" class="h-6" alt="">
+                    </button>
+                </div>
+
+                <!-- menu -->
+                 <div id="menu" class="w-full lg:w-auto hidden lg:flex items-center justify-between lg:order-1">
+                    <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 transition">
+                        <li>
+                            <a href="#" class="block py-2 px-3 text-white bg-purple-700 rounded lg:bg-transparent lg:text-purple-700 lg:p-0">Home</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block py-2 px-3 text-gray-700 border-b border-gray-100 rounded lg:bg-transparent lg:border-0 lg:p-0 lg:hover:text-purple-700">About</a>
+                        </li>
+                          <li>
+                            <a href="#" class="block py-2 px-3 text-gray-700 border-b border-gray-100 rounded lg:bg-transparent lg:border-0 lg:p-0 lg:hover:text-purple-700">Services</a>
+                        </li>
+                          <li>
+                            <a href="#" class="block py-2 px-3 text-gray-700 border-b border-gray-100 rounded lg:bg-transparent lg:border-0 lg:p-0 lg:hover:text-purple-700">Projects</a>
+                        </li>
+                          <li>
+                            <a href="#" class="block py-2 px-3 text-gray-700 border-b border-gray-100 rounded lg:bg-transparent lg:border-0 lg:p-0 lg:hover:text-purple-700">Contact</a>
+                        </li>
+
+                    </ul>
+                 </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <section class="bg-gray-100">
+        <div class="max-w-screen-xl mx-auto px-4 pt-30 lg:pt-20 pb-10 lg:pb-0 grid lg:grid-cols-12 ">
+            <!-- left -->
+            <div class="lg:col-span-7 place-self-center">
+                <div class="text">
+                    <h1 class="max-w-2xl mb-4 text-4xl font-bold tracking-tight md:text-5xl xl:text-6xl">Hi,I am John</h1>
+                    <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius soluta eos, inventore eveniet error ad libero molestiae, tempora officiis neque ea cumque! Illum alias doloremque facilis totam dolor quas consequuntur.
+                    </p>
+                </div>
+
+                <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
+                    <a href="#" class="inline-flex items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-purple-500 rounded-lg sm:w-auto hover:bg-gray-100 focus:right-4 focus:ring-gray-100">
+                    View on Github
+                    </a>
+                </div>
+            </div>
+
+            <!-- right -->
+            <div class="hidden lg:flex lg:mt-0 lg:col-span-5">
+                <img src="img/profile.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-gray-100 border-t border-gray-300">
+        <div class="max-w-screen-xl mx-auto px-7 py-15">
+            <div class="flex flex-wrap text-center gap-y-3">
+                <div class="w-[50%] lg:w-1/4 flex items-center justify-start">
+                    <div class="bg-purple-300 text-white p-3 lg:p-4 border-3 lg:border-4 rounded-full border-purple-500">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M160-120q-33 0-56.5-23.5T80-200v-440q0-33 23.5-56.5T160-720h160v-80q0-33 23.5-56.5T400-880h160q33 0 56.5 23.5T640-800v80h160q33 0 56.5 23.5T880-640v440q0 33-23.5 56.5T800-120H160Zm0-80h640v-440H160v440Zm240-520h160v-80H400v80ZM160-200v-440 440Z"/></svg>
+                    </div>
+                    <div class="flex flex-col items-start ms-2">
+                        <span class="text-lg lg:text-xl font-bold">750</span>
+                        <span class="text-sm lg:text-lg font-light">Project Complete</span>
+                    </div>
+                </div>
+                
+                <div class="w-[50%] lg:w-1/4 flex items-center justify-start">
+                    <div class="bg-purple-300 text-white p-3 lg:p-4 border-3 lg:border-4 rounded-full border-purple-500">
+                       <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM160-160v-112q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v112H160Zm80-80h480v-32q0-11-5.5-20T700-306q-54-27-109-40.5T480-360q-56 0-111 13.5T260-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T560-640q0-33-23.5-56.5T480-720q-33 0-56.5 23.5T400-640q0 33 23.5 56.5T480-560Zm0-80Zm0 400Z"/></svg>
+                    </div>
+                    <div class="flex flex-col items-start ms-2">
+                        <span class="text-lg lg:text-xl font-bold">70</span>
+                        <span class="text-sm lg:text-lg font-light">Happy Clients</span>
+                    </div>
+                </div>
+
+                <div class="w-[50%] lg:w-1/4 flex items-center justify-start">
+                    <div class="bg-purple-300 text-white p-3 lg:p-4 border-3 lg:border-4 rounded-full border-purple-500">
+                       <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M160-120v-80h640v80H160Zm160-160q-66 0-113-47t-47-113v-400h640q33 0 56.5 23.5T880-760v120q0 33-23.5 56.5T800-560h-80v120q0 66-47 113t-113 47H320Zm0-80h240q33 0 56.5-23.5T640-440v-320H240v320q0 33 23.5 56.5T320-360Zm400-280h80v-120h-80v120ZM320-360h-80 400-320Z"/></svg>
+                    </div>
+                    <div class="flex flex-col items-start ms-2">
+                        <span class="text-lg lg:text-xl font-bold">670</span>
+                        <span class="text-sm lg:text-lg font-light">Cups of Coffee</span>
+                    </div>
+                </div>
+                <div class="w-[50%] lg:w-1/4 flex items-center justify-start">
+                    <div class="bg-purple-300 text-white p-3 lg:p-4 border-3 lg:border-4 rounded-full border-purple-500">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-80h80v80h320v-80h80v80h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Zm0-480h560v-80H200v80Zm0 0v-80 80Zm280 240q-17 0-28.5-11.5T440-440q0-17 11.5-28.5T480-480q17 0 28.5 11.5T520-440q0 17-11.5 28.5T480-400Zm-160 0q-17 0-28.5-11.5T280-440q0-17 11.5-28.5T320-480q17 0 28.5 11.5T360-440q0 17-11.5 28.5T320-400Zm320 0q-17 0-28.5-11.5T600-440q0-17 11.5-28.5T640-480q17 0 28.5 11.5T680-440q0 17-11.5 28.5T640-400ZM480-240q-17 0-28.5-11.5T440-280q0-17 11.5-28.5T480-320q17 0 28.5 11.5T520-280q0 17-11.5 28.5T480-240Zm-160 0q-17 0-28.5-11.5T280-280q0-17 11.5-28.5T320-320q17 0 28.5 11.5T360-280q0 17-11.5 28.5T320-240Zm320 0q-17 0-28.5-11.5T600-280q0-17 11.5-28.5T640-320q17 0 28.5 11.5T680-280q0 17-11.5 28.5T640-240Z"/></svg>
+                    </div>
+                    <div class="flex flex-col items-start ms-2">
+                        <span class="text-lg lg:text-xl font-bold">10</span>
+                        <span class="text-sm lg:text-lg font-light">Years Experienced</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white">
+        <div class="max-w-screen-xl mx-auto px-7 py-15 grid lg:grid-cols-5 space-x-5">
+            <div class="hidden lg:flex lg:col-span-2">
+                <img src="img/portrait.jpg" class="rounded-xl" alt="">
+            </div>
+            <div class="lg:col-span-3 flex flex-col justify-center lg:ms-3">
+                <h1 class="max-w-2xl mb-4 text-xl font-bold tracking-tight md:text-2xl xl:text-3xl">About Me</h1>
+                <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius soluta eos, inventore eveniet error ad libero molestiae, tempora officiis neque ea cumque! Illum alias doloremque facilis totam dolor quas consequuntur.
+                </p>
+                <ul class="mt-4 md:px-0 px-2">
+                    <li class="flex">
+                        <span class="w-[130px]">Name:</span>
+                        <span class="text-gray-500">John Doe</span>
+                    </li>
+                     <li class="flex">
+                        <span class="w-[130px]">Date of Birth:</span>
+                        <span class="text-gray-500">January 01, 1990</span>
+                    </li>
+                     <li class="flex">
+                        <span class="w-[130px]">Address:</span>
+                        <span class="text-gray-500">San Francisco CA 97987 USA</span>
+                    </li>
+                     <li class="flex">
+                        <span class="w-[130px]">Zip Code:</span>
+                        <span class="text-gray-500">41000</span>
+                    </li>
+                     <li class="flex">
+                        <span class="w-[130px]">Email:</span>
+                        <span class="text-gray-500">johndoe@gmail.com</span>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="bg-gray-100">
+        <div class="max-w-screen-lg mx-auto px-7 py-15 text-center">
+           <h1 class="mb-4 text-xl font-bold tracking-tight md:text-2xl xl:text-3xl">My Skills</h1>
+            <p class="mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius soluta eos, inventore eveniet error ad libero molestiae, tempora officiis neque ea cumque! Illum alias doloremque facilis totam dolor quas consequuntur.
+            </p>
+
+            <div class="skills grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 my-10">
+                <div class="bg-white rounded-md p-10 shadow-md">
+                    <div class="flex flex-col items-center gap-y-4">
+                        <span class="font-semibold text-xl">CSS</span>
+                        <div class="size-30 relative">
+                            <svg class="size-full" viewBox="0 0 36 36">
+                                <circle cx="18" cy="18" r="16" fill="none" class="stroke-current text-gray-200" stroke-width="2"></circle>
+
+                                 <circle cx="18" cy="18" r="16" fill="none" class="stroke-current text-purple-600" stroke-width="2" stroke-dasharray="100" stroke-dashoffset="10" stroke-linecap="round"></circle>
+                            </svg>
+                            <div class="absolute top-1/2 start-1/2 transform -translate-y-1/2 -translate-x-1/2">
+                                <span class="text-center text-xl font-semibold text-purple-600">90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-between px-5 mt-3">
+                        <div class="flex flex-col">
+                            <span class="text-purple-500 font-semibold text-lg">28%</span>
+                            <span class="text-gray-600 text-sm">Last Week</span>
+                        </div>
+                         <div class="flex flex-col">
+                            <span class="text-purple-500 font-semibold text-lg">60%</span>
+                            <span class="text-gray-600 text-sm">Last Month</span>
+                        </div>
+                    </div>
+                </div>
+                 <div class="bg-white rounded-md p-10 shadow-md">
+                    <div class="flex flex-col items-center gap-y-4">
+                        <span class="font-semibold text-xl">Javascript</span>
+                        <div class="size-30 relative">
+                            <svg class="size-full" viewBox="0 0 36 36">
+                                <circle cx="18" cy="18" r="16" fill="none" class="stroke-current text-gray-200" stroke-width="2"></circle>
+
+                                 <circle cx="18" cy="18" r="16" fill="none" class="stroke-current text-purple-600" stroke-width="2" stroke-dasharray="100" stroke-dashoffset="20" stroke-linecap="round"></circle>
+                            </svg>
+                            <div class="absolute top-1/2 start-1/2 transform -translate-y-1/2 -translate-x-1/2">
+                                <span class="text-center text-xl font-semibold text-purple-600">80%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-between px-5 mt-3">
+                        <div class="flex flex-col">
+                            <span class="text-purple-500 font-semibold text-lg">28%</span>
+                            <span class="text-gray-600 text-sm">Last Week</span>
+                        </div>
+                         <div class="flex flex-col">
+                            <span class="text-purple-500 font-semibold text-lg">60%</span>
+                            <span class="text-gray-600 text-sm">Last Month</span>
+                        </div>
+                    </div>
+                </div>
+                 <div class="bg-white rounded-md p-10 shadow-md">
+                    <div class="flex flex-col items-center gap-y-4">
+                        <span class="font-semibold text-xl">React</span>
+                        <div class="size-30 relative">
+                            <svg class="size-full" viewBox="0 0 36 36">
+                                <circle cx="18" cy="18" r="16" fill="none" class="stroke-current text-gray-200" stroke-width="2"></circle>
+
+                                 <circle cx="18" cy="18" r="16" fill="none" class="stroke-current text-purple-600" stroke-width="2" stroke-dasharray="100" stroke-dashoffset="30" stroke-linecap="round"></circle>
+                            </svg>
+                            <div class="absolute top-1/2 start-1/2 transform -translate-y-1/2 -translate-x-1/2">
+                                <span class="text-center text-xl font-semibold text-purple-600">70%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-between px-5 mt-3">
+                        <div class="flex flex-col">
+                            <span class="text-purple-500 font-semibold text-lg">28%</span>
+                            <span class="text-gray-600 text-sm">Last Week</span>
+                        </div>
+                         <div class="flex flex-col">
+                            <span class="text-purple-500 font-semibold text-lg">60%</span>
+                            <span class="text-gray-600 text-sm">Last Month</span>
+                        </div>
+                    </div>
+                </div>
+                 <div class="bg-white rounded-md p-10 shadow-md">
+                    <div class="flex flex-col items-center gap-y-4">
+                        <span class="font-semibold text-xl">Node.js</span>
+                        <div class="size-30 relative">
+                            <svg class="size-full" viewBox="0 0 36 36">
+                                <circle cx="18" cy="18" r="16" fill="none" class="stroke-current text-gray-200" stroke-width="2"></circle>
+
+                                 <circle cx="18" cy="18" r="16" fill="none" class="stroke-current text-purple-600" stroke-width="2" stroke-dasharray="100" stroke-dashoffset="15" stroke-linecap="round"></circle>
+                            </svg>
+                            <div class="absolute top-1/2 start-1/2 transform -translate-y-1/2 -translate-x-1/2">
+                                <span class="text-center text-xl font-semibold text-purple-600">85%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-between px-5 mt-3">
+                        <div class="flex flex-col">
+                            <span class="text-purple-500 font-semibold text-lg">28%</span>
+                            <span class="text-gray-600 text-sm">Last Week</span>
+                        </div>
+                         <div class="flex flex-col">
+                            <span class="text-purple-500 font-semibold text-lg">60%</span>
+                            <span class="text-gray-600 text-sm">Last Month</span>
+                        </div>
+                    </div>
+                </div>
+                 <div class="bg-white rounded-md p-10 shadow-md">
+                    <div class="flex flex-col items-center gap-y-4">
+                        <span class="font-semibold text-xl">Laravel</span>
+                        <div class="size-30 relative">
+                            <svg class="size-full" viewBox="0 0 36 36">
+                                <circle cx="18" cy="18" r="16" fill="none" class="stroke-current text-gray-200" stroke-width="2"></circle>
+
+                                 <circle cx="18" cy="18" r="16" fill="none" class="stroke-current text-purple-600" stroke-width="2" stroke-dasharray="100" stroke-dashoffset="20" stroke-linecap="round"></circle>
+                            </svg>
+                            <div class="absolute top-1/2 start-1/2 transform -translate-y-1/2 -translate-x-1/2">
+                                <span class="text-center text-xl font-semibold text-purple-600">80%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-between px-5 mt-3">
+                        <div class="flex flex-col">
+                            <span class="text-purple-500 font-semibold text-lg">28%</span>
+                            <span class="text-gray-600 text-sm">Last Week</span>
+                        </div>
+                         <div class="flex flex-col">
+                            <span class="text-purple-500 font-semibold text-lg">60%</span>
+                            <span class="text-gray-600 text-sm">Last Month</span>
+                        </div>
+                    </div>
+                </div>
+                 <div class="bg-white rounded-md p-10 shadow-md">
+                    <div class="flex flex-col items-center gap-y-4">
+                        <span class="font-semibold text-xl">Php</span>
+                        <div class="size-30 relative">
+                            <svg class="size-full" viewBox="0 0 36 36">
+                                <circle cx="18" cy="18" r="16" fill="none" class="stroke-current text-gray-200" stroke-width="2"></circle>
+
+                                 <circle cx="18" cy="18" r="16" fill="none" class="stroke-current text-purple-600" stroke-width="2" stroke-dasharray="100" stroke-dashoffset="30" stroke-linecap="round"></circle>
+                            </svg>
+                            <div class="absolute top-1/2 start-1/2 transform -translate-y-1/2 -translate-x-1/2">
+                                <span class="text-center text-xl font-semibold text-purple-600">70%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-between px-5 mt-3">
+                        <div class="flex flex-col">
+                            <span class="text-purple-500 font-semibold text-lg">28%</span>
+                            <span class="text-gray-600 text-sm">Last Week</span>
+                        </div>
+                         <div class="flex flex-col">
+                            <span class="text-purple-500 font-semibold text-lg">60%</span>
+                            <span class="text-gray-600 text-sm">Last Month</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.5.2/flowbite.js"></script>
+</body>
+</html>

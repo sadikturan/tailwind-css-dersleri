@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <header class="fixed w-full">
+        <nav class="bg-white border-gray-200 py-2.5">
+            <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
+                <!-- logo -->
+                 <a href="#" class="flex items-center">
+                    <img src="img/logo.svg" alt="" class="h-6 mr-2">
+                    <span class="text-xl font-semibold">Portfolio</span>
+                 </a>
+
+                <!-- button & mobile icon -->
+                <div class="flex items-center  lg:order-2">
+                    <a href="#" class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 py-2">Get Started</a>
+
+                    <button data-collapse-toggle="menu" class="p-2 ml-1 text-sm text-gray-500 rounded-lg cursor-pointer lg:hidden">
+                        <img src="/img/hamburger.svg" class="h-6" alt="">
+                    </button>
+                </div>
+
+                <!-- menu -->
+                 <div id="menu" class="w-full lg:w-auto hidden lg:flex items-center justify-between lg:order-1">
+                    <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 transition">
+                        <li>
+                            <a href="#" class="block py-2 px-3 text-white bg-purple-700 rounded lg:bg-transparent lg:text-purple-700 lg:p-0">Home</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block py-2 px-3 text-gray-700 border-b border-gray-100 rounded lg:bg-transparent lg:border-0 lg:p-0 lg:hover:text-purple-700">About</a>
+                        </li>
+                          <li>
+                            <a href="#" class="block py-2 px-3 text-gray-700 border-b border-gray-100 rounded lg:bg-transparent lg:border-0 lg:p-0 lg:hover:text-purple-700">Services</a>
+                        </li>
+                          <li>
+                            <a href="#" class="block py-2 px-3 text-gray-700 border-b border-gray-100 rounded lg:bg-transparent lg:border-0 lg:p-0 lg:hover:text-purple-700">Projects</a>
+                        </li>
+                          <li>
+                            <a href="#" class="block py-2 px-3 text-gray-700 border-b border-gray-100 rounded lg:bg-transparent lg:border-0 lg:p-0 lg:hover:text-purple-700">Contact</a>
+                        </li>
+
+                    </ul>
+                 </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <section class="bg-gray-100">
+        <div class="max-w-screen-xl mx-auto px-4 pt-30 lg:pt-20 pb-10 lg:pb-0 grid lg:grid-cols-12 ">
+            <!-- left -->
+            <div class="lg:col-span-7 place-self-center">
+                <div class="text">
+                    <h1 class="max-w-2xl mb-4 text-4xl font-bold tracking-tight md:text-5xl xl:text-6xl">Hi,I am John</h1>
+                    <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius soluta eos, inventore eveniet error ad libero molestiae, tempora officiis neque ea cumque! Illum alias doloremque facilis totam dolor quas consequuntur.
+                    </p>
+                </div>
+
+                <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
+                    <a href="#" class="inline-flex items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-purple-500 rounded-lg sm:w-auto hover:bg-gray-100 focus:right-4 focus:ring-gray-100">
+                    View on Github
+                    </a>
+                </div>
+            </div>
+
+            <!-- right -->
+            <div class="hidden lg:flex lg:mt-0 lg:col-span-5">
+                <img src="img/profile.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.5.2/flowbite.js"></script>
+</body>
+</html>

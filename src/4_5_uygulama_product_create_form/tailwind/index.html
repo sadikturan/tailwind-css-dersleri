@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <section class="bg-gray-50">
+      <div class="flex items-center justify-center px-6 py-8 md:h-screen mx-auto lg:py-0">
+        <div class="w-full bg-white rounded-lg shadow md:max-w-2xl">
+          <div class="p-6 space-y-4 md:space-y-6">
+            <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900">Create Product</h1>
+            <form>
+
+              <div class="grid sm:grid-cols-2 gap-4 sm:gap-6 mb-3 sm:mb-4">
+
+                <div class="sm:col-span-2">
+                  <label for="name" class="block mb-2 text-sm font-medium text-gray-900">Product name</label>
+                  <input type="text" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-600 focus:border-blue-600 block w-full p-2.5" placeholder="Product name">
+                </div>
+
+                <div>
+                  <label for="brand" class="block mb-2 text-sm font-medium text-gray-900">Brand</label>
+                  <input type="text" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-600 focus:border-blue-600 block w-full p-2.5" placeholder="Product brand">
+                </div>
+
+                <div>
+                  <label for="price" class="block mb-2 text-sm font-medium text-gray-900">Price</label>
+                  <input type="number" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-600 focus:border-blue-600 block w-full p-2.5" placeholder="0.00 ₺">
+                </div>
+
+                <div>
+                  <label for="category" class="block mb-2 text-sm font-medium text-gray-900">Category</label>
+                  <select class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-600 focus:border-blue-600 block w-full p-2.5">
+                    <option value="1" selected>Select category</option>
+                    <option value="2">Phone</option>
+                    <option value="2">Computer</option>
+                    <option value="2">Electronics</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label for="item-count" class="block mb-2 text-sm font-medium text-gray-900">Item Count</label>
+                  <input type="number" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-600 focus:border-blue-600 block w-full p-2.5" placeholder="10">
+                </div>
+
+                 <div class="sm:col-span-2">
+                  <label for="description" class="block mb-2 text-sm font-medium text-gray-900">Description</label>
+                  <textarea rows="6" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-600 focus:border-blue-600 block w-full p-2.5" placeholder="Description"></textarea>
+                </div>
+
+              </div>
+            
+            
+              <button type="submit" class="inline-flex text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-sm px-5 py-2.5">Create Product</button>
+              
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+</body>
+</html>

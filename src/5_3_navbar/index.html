@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <header class="fixed w-full">
+        <nav class="bg-white border-gray-200 py-2.5">
+            <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
+                <!-- logo -->
+                 <a href="#" class="flex items-center">
+                    <img src="img/logo.svg" alt="" class="h-6 mr-2">
+                    <span class="text-xl font-semibold">Portfolio</span>
+                 </a>
+
+                <!-- button & mobile icon -->
+                <div class="flex items-center  lg:order-2">
+                    <a href="#" class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 py-2">Get Started</a>
+
+                    <button data-collapse-toggle="menu" class="p-2 ml-1 text-sm text-gray-500 rounded-lg cursor-pointer lg:hidden">
+                        <img src="/img/hamburger.svg" class="h-6" alt="">
+                    </button>
+                </div>
+
+                <!-- menu -->
+                 <div id="menu" class="w-full lg:w-auto hidden lg:flex items-center justify-between lg:order-1">
+                    <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 transition">
+                        <li>
+                            <a href="#" class="block py-2 px-3 text-white bg-purple-700 rounded lg:bg-transparent lg:text-purple-700 lg:p-0">Home</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block py-2 px-3 text-gray-700 border-b border-gray-100 rounded lg:bg-transparent lg:border-0 lg:p-0 lg:hover:text-purple-700">About</a>
+                        </li>
+                          <li>
+                            <a href="#" class="block py-2 px-3 text-gray-700 border-b border-gray-100 rounded lg:bg-transparent lg:border-0 lg:p-0 lg:hover:text-purple-700">Services</a>
+                        </li>
+                          <li>
+                            <a href="#" class="block py-2 px-3 text-gray-700 border-b border-gray-100 rounded lg:bg-transparent lg:border-0 lg:p-0 lg:hover:text-purple-700">Projects</a>
+                        </li>
+                          <li>
+                            <a href="#" class="block py-2 px-3 text-gray-700 border-b border-gray-100 rounded lg:bg-transparent lg:border-0 lg:p-0 lg:hover:text-purple-700">Contact</a>
+                        </li>
+
+                    </ul>
+                 </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.5.2/flowbite.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        Padding : p
+        Margin  : m
+
+        p-<number>  => padding: calc(var(--spacing) * <number>);
+        p-px        => padding: 1px;
+        p-[value]   => padding: <value>;
+
+        p[side]     => s: left, e: right, b: bottom, t: top, px: left-right, py: top-bottom
+        pb-8        => padding-bottom: 32px;
+        py-8        => padding-top: 32px; padding-bottom: 32px;
+    -->
+
+    <div class="bg-amber-900 p-8">Tailwind CSS</div>
+    <div class="bg-amber-700 ps-8">Tailwind CSS</div>
+    <div class="bg-amber-500 pt-8">Tailwind CSS</div>
+    <div class="bg-amber-400 pb-8">Tailwind CSS</div>
+    <div class="bg-amber-300 p-px">Tailwind CSS</div>
+    <div class="bg-amber-200 px-8">Tailwind CSS</div>
+    <div class="bg-amber-100 py-8">Tailwind CSS</div>
+
+
+    <div class="bg-green-400 m-8">Tailwind CSS</div>
+    <div class="bg-green-500 mt-8">Tailwind CSS</div>
+    <div class="bg-green-400 mx-8">Tailwind CSS</div>
+    <div class="bg-green-300 my-8">Tailwind CSS</div>
+
+
+    <div class="flex flex-col space-y-4 md:flex-row md:space-x-4">
+        <div>item</div>
+        <div>item</div>
+        <div>item</div>
+        <div>item</div>
+        <div>item</div>
+    </div>
+
+</body>
+</html>
